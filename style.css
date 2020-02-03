@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    font-size: 20px;
+    
 }
 
 body {
@@ -53,7 +55,7 @@ body {
   }
   
   .dropdown .dropbtn {
-    font-size: 16px;  
+    font-size: 20px;  
     border: none;
     outline: none;
     color: black;
@@ -150,8 +152,8 @@ body {
   
   form.example button {
     float: left;
-    width: 20%;
-    padding: 10px;
+    width: 1%;
+    padding: 20px;
     background: rgb(92, 93, 94);
     color: white;
     font-size: 17px;
@@ -183,3 +185,23 @@ body {
   .acc:hover {
     color: red;
   }
+
+  #enter {
+
+  }
+
+  /* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+   { width:100%; }
+   { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  .acc{font-size: 10;} 
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 414px) {
+  .acc {font-size: 10;}
+}
