@@ -164,7 +164,8 @@ color:red;
 .footer-wid-title {
 font-family: poppins, sans-serif;
 font-size: 30px;
-font-weight: 100;color: #fff
+font-weight: 100;
+color: #fff;
 }
 
 .footer-about-us h2 {
@@ -212,7 +213,13 @@ footer{
 background-color: #222;
 
 }
+footer p{
+  color: #fff;
+}
 
+footer a{
+  text-decoration:none;
+}
 .footer-social a:hover {background-color: #222;border-color: #666}
 
 .footer-social {margin-top: 20px}
