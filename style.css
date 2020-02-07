@@ -238,7 +238,7 @@ border: medium none;
 color: #fff;
 display: inline-block;
 font-size: 18px;
-padding: 7px 20px;
+padding: 5px 20px;
 text-transform: uppercase;border: 1px solid red;
 }
 .newsletter-form input[type="submit"]:hover {background: #222;border-color: red}
@@ -259,6 +259,10 @@ text-align: right;
 
 .copyright > p {
 margin: 10px 0 0;
+}
+
+.row {
+  margin: 18px;
 }
 
 * {box-sizing: border-box;}
