@@ -506,10 +506,11 @@ body {
   }
   
   .sub-header {
+	padding: 15px;
       width: 100%;
       display: flex;
       justify-content: space-between;
-      margin-bottom: 30px;
+      margin-bottom: 25px;
   }
   
   .sub-header .close-btn {
